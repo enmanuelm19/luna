@@ -1,0 +1,18 @@
+es:
+  spree:
+    search: 'Buscar'
+    quick_search: 'Busqueda rapida'
+    new_order: 'Nueva orden'
+    filter: 'Filtro'
+    returns: 'Devoluciones'
+    products: 'Productos'
+    promotions: 'Promociones'
+    configurations: 'Configuraciones'
+    administration: 'Administración'
+    orders: 'Ordenes'
+    users: 'Usuarios'
+    no_resource_found: 'No se encontro el recurso'
+    add_one: 'Agregar orden'
+    nav_bar:
+      show_search: 'Mostrar busqueda'
+      show_user_menu: 'Mostra menu de usuario'
