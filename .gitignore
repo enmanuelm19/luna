@@ -22,12 +22,11 @@
 /storage/*
 !/storage/.keep
 
-/public/assets
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
+/public/dev-assets
 /public/packs
 /public/packs-test
 /node_modules

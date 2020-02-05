@@ -25,6 +25,7 @@ group :development do
   gem 'capistrano-rails', require: false
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma', require: false
+  gem 'capistrano-local-precompile', require: false
 #  gem 'capistrano-db-tasks', require: false
 #  gem 'capistrano-nginx', require: false
 #  gem 'capistrano-rails-db', require: false
