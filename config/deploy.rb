@@ -33,6 +33,8 @@ set :db_ignore_data_tables,  ["versions"]
 set :linked_files, %w{config/database.yml config/master.key}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/assets}
 
+Rake::Task['deploy:assets:precompile'].clear_actions
+
 namespace :puma do
   desc 'Create directories for puma and sockets'
   task :make_dirs do
@@ -76,6 +78,6 @@ namespace :deploy do
 
   before :starting, :check_revision
   #before "symlink:release", :yarn_deploy
-  after:finishing, :compile_assets
+  #after:finishing, :compile_assets
   after :finishing, :cleanup
 end
