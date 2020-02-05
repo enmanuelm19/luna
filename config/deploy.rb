@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.2"
 
-set :application, "luna-boutique.cl"
-set :repo_url, "git@github.com:enmanuelm19/luna-boutique.git"
+set :application, "luna"
+set :repo_url, "git@github.com:enmanuelm19/luna.git"
 set :user, 'enmanuel'
 set :puma_threads, [4, 16]
 set :puma_workers, 0
@@ -30,7 +30,7 @@ set :db_remote_clean, true
 set :db_ignore_data_tables,  ["versions"]
 
 
-set :linked_files,%w{config/database.yml config/master.key}
+set :linked_files, %w{config/database.yml config/master.key}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/assets}
 
 namespace :puma do
@@ -42,8 +42,6 @@ namespace :puma do
     end
   end
   before :start, :make_dirs
-  after :make_dirs, 'nginx:restart'
-  before :restart, 'nginx:restart'
 end
 
 namespace :deploy do
@@ -69,8 +67,8 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      invoke 'nginx:stop'
-      invoke 'nginx:start'
+      #invoke 'nginx:stop'
+      #invoke 'nginx:start'
       invoke 'puma:stop'
       invoke 'puma:start'
     end
@@ -80,4 +78,4 @@ namespace :deploy do
   #before "symlink:release", :yarn_deploy
   after:finishing, :compile_assets
   after :finishing, :cleanup
-e
+end
