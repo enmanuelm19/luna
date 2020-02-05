@@ -1347,6 +1347,7 @@ es:
       match_any: al menos uno
     taxonomies: Categorías
     taxonomy: Categoría
+    taxonomy_categories_name: Categorias
     taxonomy_edit: Editar Categoría
     taxonomy_tree_error: El cambio solicitado no ha sido aceptado y el arbol ha sido devuelto a su estado anterior, por favor intentalo de nuevo
     taxonomy_tree_instruction: "* Click derecho en una rama del arbol para acceder al menu de añadir, borrar u ordenar un hijo"
