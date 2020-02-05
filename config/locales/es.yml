@@ -397,6 +397,7 @@ es:
     add_action_of_type: Agregar acción del tipo
     add_country: Agregar País
     add_coupon_code: Agregar Código de Cupón
+    add_new_address: Agregar dirección
     add_new_header: Agregar nueva cabecera
     add_new_style: Agregar nuevo estilo
     add_one: Agregar uno
@@ -517,6 +518,8 @@ es:
     card_type: Marca
     card_type_is: El tipo de tarjeta es
     cart: Carrito
+    cart_page:
+      empty_info: Carrito vacio
     cart_subtotal:
       one: 'Subtotal (1 artículo)'
       other: 'Subtotal (%{count} artículos)'
@@ -546,6 +549,7 @@ es:
     confirm: Confirmar
     confirm_delete: Confimar borrado
     confirm_password: Confirmación de Contraseña
+    contact_us: Contáctanos
     continue: Continuar
     continue_shopping: Continuar comprando
     cost_currency: Moneda de costo
@@ -706,6 +710,7 @@ es:
     gateway_error: Error en Gateway
     general: General
     general_settings: Preferencias en general
+    go_to_category: Ir a la categoria
     google_analytics: Google Analytics
     google_analytics_id: ID Analytics
     guest_checkout: Comprobación Invitado
@@ -715,6 +720,14 @@ es:
     home: Inicio
     homepage:
       shop_now: Compra ahora
+      men: Hombres
+      new_collection: Nueva colección
+      read_more: Leer más
+      sportswear: Ropa deportiva
+      streetstyle: Moda de calle
+      summer_collection: Colección de primavera
+      up_to_60: Hasta el 60%
+      women: Mujeres
     i18n:
       available_locales: Locales Disponibles
       language: Idioma
@@ -814,10 +827,12 @@ es:
     name_on_card: Nombre en la tarjeta
     name_or_sku: Nombre o SKU (introducir al menos los 4 primeros caracteres o nombre del producto)
     nav_bar:
+      close_menu: Cerrar menú
       log_out: Cerrar sesión
       my_account: Mi cuenta
       show_search: Mostrar busqueda
       show_user_menu: Mostrar menú de usuario
+      show_menu: Mostrar menú
     new: Nuevo
     new_adjustment: Nuevo Ajuste
     new_customer: Nuevo Cliente
@@ -1286,6 +1301,7 @@ es:
     stock_transfers: Transferencias de Stock
     stop: Parar
     store: Tienda
+    store_credit_name: Creditos Luna
     street_address: Calle
     street_address_2: Calle de referencia
     subtotal: Subtotal
