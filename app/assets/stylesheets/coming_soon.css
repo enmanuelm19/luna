@@ -27,20 +27,15 @@ body {
   background: url(https://i.imgur.com/UPnFSTQ.jpg) no-repeat center center fixed !important;
   background-size: cover !important;
   color: #fff;
-  text-align: center;
+  text-align: center !important;
   font-family: 'Quicksand', sans-serif;
   font-size:18px !important;
-}
-
-.cover-copy{
-    color:#fff !important ;
+  padding-top: 0px !important;
 }
 
 .btn-notify{
     border:2px solid #fff !important;
 }
-
-
 
 .site-wrapper {
   display: table;
@@ -96,41 +91,79 @@ body {
   padding: 0 20px;
 }
 
+
+.cover-heading {
+  font-size: 5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 15px !important;
+  color: #fff !important;
+  letter-spacing: 15px;
+}
+
+.sub-header {  
+  font-size: 3rem;
+  letter-spacing: 6px;
+  color: #fff !important;
+}
+
+.lead {
+  font-size: 2rem !important;
+  font-weight: 300;
+}
+
 .cover .btn-notify {
+  font-size: 2rem !important;
   padding: 10px 60px;
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 40px;
+  background-color: white;
 }
 
-.cover-heading {
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 2rem;
-  margin-bottom: 15px !important;
+.image-brand {
+  height: 25rem;
 }
 
-.sub-header {
+@media only screen and (min-width: 1200px) {
+  .cover-heading {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2rem;
+    margin-bottom: 15px !important;
+    color: #fff !important;
+  }
+  
+  .image-brand {
+    height: 150px;
+  }
+
+  .sub-header {
     font-size: 23px;
     letter-spacing:6px;
     color:#fff !important;
-}
+  }
 
-.cover-heading {
-    color:#fff !important;
-}
+  .lead {
+    font-weight: 300;
+    font-size: 1.25rem !important;
+  }
 
-@media (min-width: 768px) {
-  .cover-heading {
-    font-size: 3.4rem;
-    letter-spacing: 15px;
+  .cover .btn-notify {
+    font-size: 1rem !important;
+    padding: 10px 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: white;
   }
 }
 
 .cover-copy {
   max-width: 500px;
   margin: 0 auto 3rem;
+  color: #fff !important;
 }
 
 .mastfoot {
