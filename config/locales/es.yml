@@ -1,4 +1,18 @@
 es:
+  date:
+    abbr_day_names: [ Dom, Lun, Mar, Mié, Jue, Vie, Sab ]
+    abbr_month_names: [ ~, Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic ]
+    day_names: [ Domingo, Lunes, Martes, Miércoles, Jueves, Viernes, Sábado ]
+    formats:
+      default: "%d/%m/%Y %H:%M"
+      short: "%d/%m/%Y"
+      long: "%d/%m/%Y %H:%M:%S"
+    month_names: [ ~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre ]
+    order:
+    - :day
+    - :month
+    - :year
+
   activerecord:
     attributes:
       spree/address:
@@ -633,6 +647,7 @@ es:
     dismiss_banner: No. Gracias! No estoy interesado. no mostrar este mensaje otra vez
     display: Mostrar
     doesnt_track_inventory: No realizar el siguiente de inventario
+    dont_have_account: ¿No tienes cuenta?
     edit: Editar
     editing_resource: 'Editando %{resource}'
     editing_rma_reason: Editando razón RMA
@@ -796,6 +811,7 @@ es:
     logged_in_succesfully: Conectado con éxito
     logged_out: Se ha cerrado la sesión.
     login: Login
+    log_in: Iniciar sesión
     login_as_existing: Deseo ingresar con mi cuenta
     login_failed: No se ha podido iniciar la sesión, error de autenticación.
     login_name: E-Mail
@@ -1240,6 +1256,7 @@ es:
     show_only_complete_orders: Mostrar solamente Pedidos completos
     show_only_considered_risky: Mostrar solamente considerados riesgosos
     show_rate_in_label: Mostrar tarifa en la etiqueta
+    sign_up: Registrate
     sku: SKU
     skus: SKUs
     slug: Slug
