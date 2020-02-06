@@ -1023,6 +1023,10 @@ es:
     please_enter_reasonable_quantity: Por favor introduzca una cantidad razonable.
     plp:
       home: Inicio
+      default: Relevantes
+      newest_first: Nuevos
+      price_hight_to_low: Mayor precio
+      price_low_to_high: Menor precio
       results_for: Resultados para
       sort_by: Ordernar por
     populate_get_error: Se produjo un error. Por favor intenta añadir el artículo otra vez.
