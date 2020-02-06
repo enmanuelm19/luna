@@ -739,12 +739,15 @@ es:
     height: Altura
     home: Inicio
     homepage:
+      fashion_trends: Tendencias
+      fashion_trends_note: Las prendas más populares de la temporada
       shop_now: Compra ahora
       men: Hombres
       new_collection: Nueva colección
       read_more: Leer más
       sportswear: Ropa deportiva
       streetstyle: Moda de calle
+      summer_2019: Verano 2020
       summer_collection: Colección de primavera
       up_to_60: Hasta el 60%
       women: Mujeres
@@ -1025,6 +1028,10 @@ es:
       home: Inicio
       default: Relevantes
       newest_first: Nuevos
+      no_results: Sin resultados
+      not_found_filters1: Sin resultados para el filtro
+      not_found_filters2: Sin resultados para el filtro
+      price: Precio
       price_high_to_low: Mayor precio
       price_low_to_high: Menor precio
       results_for: Resultados para
