@@ -1025,7 +1025,7 @@ es:
       home: Inicio
       default: Relevantes
       newest_first: Nuevos
-      price_hight_to_low: Mayor precio
+      price_high_to_low: Mayor precio
       price_low_to_high: Menor precio
       results_for: Resultados para
       sort_by: Ordernar por
