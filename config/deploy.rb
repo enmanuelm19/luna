@@ -31,7 +31,7 @@ set :db_ignore_data_tables,  ["versions"]
 
 
 set :linked_files, %w{config/database.yml config/master.key}
-set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/assets}
+set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads public/assets storage}
 
 Rake::Task['deploy:assets:precompile'].clear_actions
 
