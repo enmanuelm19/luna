@@ -94,6 +94,7 @@ es:
         cost_currency: Moneda de costo
         cost_price: Precio costo
         description: Descripción
+        less_than: Menos de
         master_price: Precio principal
         name: Nombre
         on_hand: En mano
@@ -471,6 +472,7 @@ es:
     all_adjustments_opened: Todos los ajustes abiertos satisfactoriamente
     all_departments: Todas las Categorías
     all_items_have_been_returned: Todos los artículos se han devuelto
+    all_rights_reserved: Todos los derechos reservados
     already_signed_up_for_analytics: Ya te encuentras registrado en Spree Analytics
     alt_text: Texto alternativo
     alternative_phone: Teléfono alternativo
@@ -494,6 +496,7 @@ es:
     authorized: Autorizado
     auto_capture: Captura automática
     available_on: Disponible
+    availability: Disponibilidad
     average_order_value: Valor promedio de pedidos
     avs_response: AVS Response
     back: Volver
@@ -534,6 +537,8 @@ es:
     cart: Carrito
     cart_page:
       empty_info: Carrito vacio
+      header: Carrito de compras
+      title: Carrito
     cart_subtotal:
       one: 'Subtotal (1 artículo)'
       other: 'Subtotal (%{count} artículos)'
@@ -754,6 +759,7 @@ es:
     implement_eligible_for_return: "Debe implementar #eligible_for_return? para su EligibilityValidator."
     implement_requires_manual_intervention: "Debe implmentar #requires_manual_intervention? para su EligibilityValidator."
     inactive: Inactivo
+    in_stock: En existencia
     incl: incl.
     included_in_price: Incluido en el precio
     included_price_validation: No puede ser seleccionado a menos que establezcas una Zona de Impuesto por defecto
@@ -812,6 +818,7 @@ es:
     logged_out: Se ha cerrado la sesión.
     login: Login
     log_in: Iniciar sesión
+    log_in_to_continue: Inicia sesión para continuar
     login_as_existing: Deseo ingresar con mi cuenta
     login_failed: No se ha podido iniciar la sesión, error de autenticación.
     login_name: E-Mail
@@ -846,6 +853,7 @@ es:
       close_menu: Cerrar menú
       log_out: Cerrar sesión
       my_account: Mi cuenta
+      my_orders: Mis ordenes
       show_search: Mostrar busqueda
       show_user_menu: Mostrar menú de usuario
       show_menu: Mostrar menú
@@ -1013,6 +1021,10 @@ es:
     place_order: Realizar Pedido
     please_define_payment_methods: Por favor define algún medio de pago primero
     please_enter_reasonable_quantity: Por favor introduzca una cantidad razonable.
+    plp:
+      home: Inicio
+      results_for: Resultados para
+      sort_by: Ordernar por
     populate_get_error: Se produjo un error. Por favor intenta añadir el artículo otra vez.
     powered_by: Desarrollado por
     pre_tax_refund_amount: Pre-Tax Valor devolución
