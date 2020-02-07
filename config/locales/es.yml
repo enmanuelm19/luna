@@ -742,15 +742,16 @@ es:
       fashion_trends: Tendencias
       fashion_trends_note: Las prendas más populares de la temporada
       shop_now: Compra ahora
-      men: Hombres
+      men: Casual
       new_collection: Nueva colección
       read_more: Leer más
-      sportswear: Ropa deportiva
-      streetstyle: Moda de calle
+      sportswear: Formal
+      streetstyle: Promoción Ropa
       summer_2019: Verano 2020
       summer_collection: Colección de primavera
-      up_to_60: Hasta el 60%
-      women: Mujeres
+      summer_sale: Grandes descuentos
+      up_to_60: Promoción Accesorios
+      women: Accesorios
     i18n:
       available_locales: Locales Disponibles
       language: Idioma
