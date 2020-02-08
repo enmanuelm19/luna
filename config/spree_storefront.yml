@@ -2,66 +2,72 @@ default:
   navigation:
     - title: Accesorios
       subtitle: Categorias
-      url: /t/categorias
+      url: /t/accesorios
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Aros
+          :url: /t/accesorios/aros
+        - :title: Collares
+          :url: /t/accesorios/collares
+        - :title: Tobilleras
+          :url: /t/accesorios/tobilleras
+        - :title: Anillos
+          :url: /t/accesorios/anillos
+        - :title: Pulseras
+          :url: /t/accesorios/pulseras
+        - :title: Tocados
+          :url: /t/accesorios/tocados
       promo_banners:
         - subtitle: Nueva colección
-          title: Summer 2019
-          url: /t/summer-collection
+          title: Edén
+          url: /t/nuevo
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers
+        - subtitle: Ofertas especiales
+          title: Promoción Accesorios
+          url: /t/promocion_accesorios
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Casual
       subtitle: Categorias
-      url: /t/Casual
+      url: /t/casual
       items:
-        - :title: Shirts
-          :url: /t/men/shirts
-        - :title: T-shirts
-          :url: /t/men/t-shirts
+        - :title: Poleras
+          :url: /t/casual/poleras
+        - :title: Blusas
+          :url: /t/casual/blusas
         - :title: Sweaters
-          :url: /t/men/sweaters
-        - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+          :url: /t/casual/sweaters
+        - :title: Shorts
+          :url: /t/casual/shorts
+        - :title: Faldas
+          :url: /t/casual/faldas
+        - :title: Abrigos
+          :url: /t/casual/abrigos
+        - :title: Pantalones
+          :url: /t/casual/pantalones
       promo_banners:
         - subtitle: Nueva colección
-          title: Summer 2019
-          url: /t/summer-collection
+          title: Verano
+          url: /t/nuevo
           image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers
+        - subtitle: Ofertas especiales
+          title: Promoción Ropa
+          url: /t/promocion_ropa
           image: 'meganav/promo_banner_right-second-category.jpg'
     - title: Formal
       subtitle: Categorias
-      url: /t/Formal
+      url: /t/formal
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
+        - :title: Faldas
+          :url: /t/formal/faldas
+        - :title: Pantalones
+          :url: /t/formal/pantalones
+        - :title: Vestidos
+          :url: /t/formal/vestidos
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2019
-          url: /t/summer-collection
+        - subtitle: Nueva colección
+          title: Verano
+          url: /t/nuevo
           image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers
+        - subtitle: Ofertas especiales
+          title: Promoción Ropa
+          url: /t/promocion_ropa
           image: 'meganav/promo_banner_right-third-category.jpg'
