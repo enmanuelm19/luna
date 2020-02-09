@@ -855,6 +855,7 @@ es:
     name_or_sku: Nombre o SKU (introducir al menos los 4 primeros caracteres o nombre del producto)
     nav_bar:
       close_menu: Cerrar menú
+      go_to_previous_menu: Ir al menú anterior
       log_out: Cerrar sesión
       my_account: Mi cuenta
       my_orders: Mis ordenes
@@ -1028,6 +1029,7 @@ es:
     plp:
       home: Inicio
       default: Relevantes
+      filter_by: Filtrar por
       newest_first: Nuevos
       no_results: Sin resultados
       not_found_filters1: Sin resultados para el filtro
