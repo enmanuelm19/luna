@@ -13,6 +13,11 @@ es:
     - :month
     - :year
 
+  address_book:
+    save: Guardar
+    successfully_created: Dirección creada exitosamente
+    successfully_updated: Dirección editada exitosamente
+    edit_shipping_address: Editar dirección de envío
   activerecord:
     attributes:
       spree/address:
@@ -424,6 +429,7 @@ es:
     add_stock: Agregar Stock
     add_to_cart: Agregar al carrito
     add_variant: Agregar variante
+    added_to_cart: Añadido al carro
     additional_item: Artículo adicional
     address: Dirección
     address1: Dirección
@@ -536,8 +542,12 @@ es:
     card_type_is: El tipo de tarjeta es
     cart: Carrito
     cart_page:
+      add_promo_code: Añadir cupón
+      checkout: Pagar
       empty_info: Carrito vacio
       header: Carrito de compras
+      quantity: Cantidad
+      product: Producto
       title: Carrito
     cart_subtotal:
       one: 'Subtotal (1 artículo)'
@@ -1018,6 +1028,9 @@ es:
       void: anular
     payment_updated: Pago actualizado
     payments: Pagos
+    pdp:
+      checkout: Pagar
+      view_cart: Ver carrito
     percent: Porcentaje
     percent_per_item: Porcentaje por artículo
     permalink: Permalink
