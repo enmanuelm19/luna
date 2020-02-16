@@ -15,6 +15,8 @@ gem 'spree', '~> 4.1.0.rc1'
 gem 'spree_auth_devise', '~> 4.1.0.rc1'
 gem 'spree_gateway', '~> 3.7'
 gem 'delayed_job_active_record'
+gem 'daemons'
+gem 'capistrano3-delayed-job'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
