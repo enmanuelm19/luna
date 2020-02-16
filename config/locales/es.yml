@@ -292,6 +292,10 @@ es:
         other: Zonas
     errors:
       models:
+        spree/address:
+          attributes:
+            zipcode:
+              invalid: El código postal es invalido
         spree/calculator/tiered_flat_rate:
           attributes:
             base:
@@ -336,6 +340,10 @@ es:
           attributes:
             base:
               cannot_destroy_default_store: Cannot destroy the default Store.
+        spree/variant:
+          attributes:
+            sku:
+              taken: Ya este código fue tomado
 
   devise:
     confirmations:
@@ -434,6 +442,8 @@ es:
     address: Dirección
     address1: Dirección
     address2: Dirección Complementaria
+    address_book:
+      successfully_updated: Dirección actualizada satisfactoriamente
     adjustable: Ajustable
     adjustment: Ajuste
     adjustment_amount: Valor
@@ -479,6 +489,7 @@ es:
     all_departments: Todas las Categorías
     all_items_have_been_returned: Todos los artículos se han devuelto
     all_rights_reserved: Todos los derechos reservados
+    already_have_account: Ya tienes una cuenta
     already_signed_up_for_analytics: Ya te encuentras registrado en Spree Analytics
     alt_text: Texto alternativo
     alternative_phone: Teléfono alternativo
@@ -554,6 +565,9 @@ es:
       other: 'Subtotal (%{count} artículos)'
     categories: Categorías
     category: Categoría
+    checkout_page:
+      back_to_cart: Devolverse al carrito
+      header: Pago
     charged: Cargado
     check_for_spree_alerts: Comprobar alertas
     checkout: Realizar pedido
@@ -580,6 +594,7 @@ es:
     confirm_password: Confirmación de Contraseña
     contact_us: Contáctanos
     continue: Continuar
+    continue_as_guest: Continuar como visitante
     continue_shopping: Continuar comprando
     cost_currency: Moneda de costo
     cost_price: Precio de costo
@@ -658,6 +673,7 @@ es:
     description: Descripción
     destination: Destino
     destroy: Eliminar
+    discontinue_on: Descontinuar el
     discount_amount: Valor del descuento
     dismiss_banner: No. Gracias! No estoy interesado. no mostrar este mensaje otra vez
     display: Mostrar
@@ -844,6 +860,7 @@ es:
     manual_intervention_required: Requiere intervención manual
     manage_variants: Administrar Variantes
     master_price: Precio principal
+    master_sku: Código principal
     match_choices:
       all: Todos
       none: Ninguno
@@ -989,6 +1006,8 @@ es:
       payment: Pago
       resumed: reanudado
       returned: devuelto
+    order_success: Pedido exitoso
+    order_success_explain: Tu pedido se ha procesado con exito
     order_summary: Resumen del pedido
     order_sure_want_to: "¿Estás seguro de que quieres %{event} este pedido?"
     order_total: Total Pedido
@@ -1007,6 +1026,7 @@ es:
     path: Ruta
     pay: pagar
     payment: Pago
+    payment_type: Tipo de pago
     payment_could_not_be_created: El pago no se ha podido crear.
     payment_information: Información del Pago
     payment_method: Medio de Pago
@@ -1059,6 +1079,7 @@ es:
     pre_tax_total: Pre-Tax Total
     preferred_reimbursement_type: Tipo preferido de Reembolso
     presentation: Presentación
+    preview_product: Vista previa
     previous: Anterior
     previous_state_missing: "n/a"
     price: Precio
