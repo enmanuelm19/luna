@@ -6,7 +6,7 @@
           <%= label :new_variant, option_type.presentation %>
           <% if option_type.presentation === "Color" %>
             <select name="variant[option_value_ids][]" class="selec2">
-              <% option_types.option_values.each do |ov| %>
+              <% option_type.option_values.each do |ov| %>
                 <option value="<%= ov.id %>" style="background-color: <%= ov.presentation %>">....</option>
               <% end %>
             </select>
