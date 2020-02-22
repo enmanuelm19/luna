@@ -1065,6 +1065,9 @@ es:
       filter_by: Filtrar por
       newest_first: Nuevos
       no_results: Sin resultados
+      no_results_found: Sin resultados
+      not_found_text1: Sin resultados para el filtro
+      not_found_text2: Sin resultados para el filtro
       not_found_filters1: Sin resultados para el filtro
       not_found_filters2: Sin resultados para el filtro
       price: Precio
