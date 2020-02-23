@@ -3,6 +3,7 @@
 //= require spree
 
 function formatState (state) {
+  console.log("state", state)
   if (!state.id) {
     return state.text;
   }
@@ -11,6 +12,10 @@ function formatState (state) {
   );
   return $state;
 };
-$("#color-variant").select2({
+var selectVariant = $("#color-variant");
+if (selectVariant) {
+  console.log("select", selectVariant)
+}
+selectVariant.select2({
   templateResult: formatState
 });
