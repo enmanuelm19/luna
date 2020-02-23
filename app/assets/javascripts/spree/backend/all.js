@@ -1,3 +1,7 @@
+//= require jquery3
+//= require select2
+//= require spree
+
 function formatState (state) {
   if (!state.id) {
     return state.text;
@@ -7,11 +11,6 @@ function formatState (state) {
   );
   return $state;
 };
-
-var selectColor = document.getElementById('color-variant')
-
-if (selectColor) {
- selectColor.select2({
+$("#color-variant").select2({
   templateResult: formatState
- });
-}
+});
