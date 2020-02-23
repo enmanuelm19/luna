@@ -7,7 +7,7 @@
           <% if option_type.presentation === "Color" %>
             <select name="variant[option_value_ids][]" class="select2">
               <% option_type.option_values.each do |ov| %>
-                <option value="<%= ov.id %>" style="background-color: <%= ov.presentation %>">....</option>
+                <option value="<%= ov.id %>" style="color: <%= ov.presentation %>">ov.name</option>
               <% end %>
             </select>
           <% else %>
