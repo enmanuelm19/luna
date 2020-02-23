@@ -999,7 +999,7 @@ es:
     order_number: Pedido %{number}
     order_processed_successfully: Tu pedido ha sido procesado con éxito
     order_resumed: Resumen del pedido
-    order_state:
+    order_states:
       address: dirección
       awaiting_return: esperando devolución
       canceled: cancelada
