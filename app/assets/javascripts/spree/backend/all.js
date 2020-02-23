@@ -12,7 +12,7 @@ function formatState (state) {
   );
   return $state;
 };
-var selectVariant = $("#color-variant");
+var selectVariant = document.getElementById('color-variant');
 if (selectVariant) {
   console.log("select", selectVariant)
 }
