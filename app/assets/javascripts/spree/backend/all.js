@@ -7,6 +7,11 @@ function formatState (state) {
   );
   return $state;
 };
-$("#color-variant").select2({
+
+var selectColor = document.getElementById('color-variant')
+
+if (selectColor) {
+ selectColor.select2({
   templateResult: formatState
-});
+ });
+}
