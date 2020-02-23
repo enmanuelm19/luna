@@ -1301,6 +1301,13 @@ es:
         track_information: 'Información de Seguimiento: %{tracking}'
         track_link: 'Enlace del tracking: %{url}'
     shipment_state: Estado del envío
+    shipment_states:
+      backorder: Pedido pendiente de existencias
+      canceled: Cancelado
+      partial: Parcial
+      pending: Pendiente
+      ready: Listo
+      shipped: Enviado
     shipment_state:
       backorder: Pedido pendiente de existencias
       canceled: Cancelado
