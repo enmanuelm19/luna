@@ -5,11 +5,8 @@
         <div class="form-group" data-hook="presentation">
           <%= label :new_variant, option_type.presentation %>
           <% if option_type.presentation === "Color" %>
-            <select onload="formatSelect()" name="variant[option_value_ids][]" id="color-variant" class="select2">
-              <% option_type.option_values.each do |ov| %>
-                <option value="<%= ov.id %>" style="color: <%= ov.presentation %>"><%= ov.name %></option>
-              <% end %>
-            </select>
+            <%= f.collection_select 'option_value_ids', option_type.option_values, :id, :name,
+              { include_blank: true }, { name: 'variant[option_value_ids][]', class: 'select2' } %>
           <% else %>
             <%= f.collection_select 'option_value_ids', option_type.option_values, :id, :presentation,
               { include_blank: true }, { name: 'variant[option_value_ids][]', class: 'select2' } %>
