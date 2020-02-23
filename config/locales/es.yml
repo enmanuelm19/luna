@@ -523,6 +523,7 @@ es:
     back: Volver
     back_end: Backend
     backordered: Pedido pendiente
+    backordered_info: Pedido pendiente
     back_to_resource_list: 'Volver al listado de %{resource}'
     back_to_payment: Volver al pago
     back_to_rma_reason_list: Volver al listado de razones RMA
@@ -1040,7 +1041,7 @@ es:
     payment_processor_choose_banner_text: Si necesitas ayuda a la hora de escojer un procesador de pago, por favor visita
     payment_processor_choose_link: nuestra pagina de pagos
     payment_state: Estado del Pago
-    payment_states:
+    payment_state:
       balance_due: Saldo deudor
       checkout: Verificar
       completed: Completo
@@ -1290,7 +1291,7 @@ es:
         track_information: 'Información de Seguimiento: %{tracking}'
         track_link: 'Enlace del tracking: %{url}'
     shipment_state: Estado del envío
-    shipment_states:
+    shipment_state:
       backorder: Pedido pendiente de existencias
       canceled: Cancelado
       partial: Parcial
@@ -1369,6 +1370,7 @@ es:
       reimbursed: Reembolsado
       resumed: Reanudado
       returned: Devuelto
+      shipment: Transporte
       shipped: Transportado
       void: Vacío
     states_required: Provincias requeridas
