@@ -1041,16 +1041,6 @@ es:
     payment_processor_choose_banner_text: Si necesitas ayuda a la hora de escojer un procesador de pago, por favor visita
     payment_processor_choose_link: nuestra pagina de pagos
     payment_state: Estado del Pago
-    payment_state:
-      balance_due: Saldo deudor
-      checkout: Verificar
-      completed: Completo
-      credit_owed: Crédito adeudado
-      failed: Fallado
-      paid: pagado
-      pending: pendiente
-      processing: en proceso
-      void: anular
     payment_states:
       balance_due: Saldo deudor
       checkout: Verificar
@@ -1301,7 +1291,7 @@ es:
         track_information: 'Información de Seguimiento: %{tracking}'
         track_link: 'Enlace del tracking: %{url}'
     shipment_state: Estado del envío
-    shipment_state:
+    shipment_states:
       backorder: Pedido pendiente de existencias
       canceled: Cancelado
       partial: Parcial
