@@ -12,10 +12,13 @@ function formatState (state) {
   );
   return $state;
 };
-var selectVariant = document.getElementById('color-variant');
-if (selectVariant) {
-  console.log("select", selectVariant)
+
+function formatSelect () {
+  var selectVariant = document.getElementById('color-variant');
+  if (selectVariant) {
+    console.log("select", selectVariant)
+  }
+  selectVariant.select2({
+    templateResult: formatState
+  });
 }
-selectVariant.select2({
-  templateResult: formatState
-});
