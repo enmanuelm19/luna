@@ -14,6 +14,7 @@ es:
     - :year
 
   address_book:
+    new_shipping_address: Nueva dirección de envío
     save: Guardar
     successfully_created: Dirección creada exitosamente
     successfully_updated: Dirección editada exitosamente
@@ -516,6 +517,7 @@ es:
     authorization_failure: Fallo en la autorización
     authorized: Autorizado
     auto_capture: Captura automática
+    available: Disponible
     available_on: Disponible
     availability: Disponibilidad
     average_order_value: Valor promedio de pedidos
@@ -1056,6 +1058,7 @@ es:
     pdp:
       checkout: Pagar
       view_cart: Ver carrito
+    pending_sale: Pendiente  
     percent: Porcentaje
     percent_per_item: Porcentaje por artículo
     permalink: Permalink
@@ -1207,6 +1210,7 @@ es:
     rename: Renombrar
     report: Informe
     reports: Informes
+    required_fields: Campos requeridos
     resellable: Reusable
     resend: Reenviar
     reset_password: Cambiar contraseña
