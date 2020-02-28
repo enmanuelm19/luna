@@ -1,5 +1,7 @@
 module Spree
   module FrontendHelper
+    super
+
     def checkout_progress(numbers: false)
       states = @order.checkout_steps - ['complete']
       items = states.each_with_index.map do |state, i|
