@@ -21,6 +21,7 @@ set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :rvm_type, :user
 set :rvm_ruby_version, "2.6.3"
+set :rvm_map_bins, %w{gem rake ruby bundle rails}
 #set :nvm_type, :user
 #set :nvm_node, "v9.8.0"
 #set :nvm_map_bins, %w{node npm yarn}
