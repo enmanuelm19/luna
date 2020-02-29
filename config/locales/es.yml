@@ -386,6 +386,8 @@ es:
       signed_up: Bienvenido! Te has registrado satisfactoriamente.
       updated: Has actualizado tu cuenta satisfactoriamente.
     user_sessions:
+      spree_user:
+        already_signed_out: Ya has salido de la sesión.
       signed_in: Has iniciado sesión satisfactoriamente.
       signed_out: Sesión finalizada satisfactoriamente.
 
@@ -890,9 +892,11 @@ es:
     nav_bar:
       close_menu: Cerrar menú
       go_to_previous_menu: Ir al menú anterior
+      log_in: Iniciar sesión
       log_out: Cerrar sesión
       my_account: Mi cuenta
       my_orders: Mis ordenes
+      sign_up: Registrate
       show_search: Mostrar busqueda
       show_user_menu: Mostrar menú de usuario
       show_menu: Mostrar menú
