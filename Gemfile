@@ -17,6 +17,7 @@ gem 'spree_gateway', '~> 3.7'
 gem 'delayed_job_active_record'
 gem 'daemons'
 gem 'capistrano3-delayed-job'
+gem 'slim-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -33,6 +34,7 @@ group :development do
   gem 'capistrano-db-tasks', require: false
 #  gem 'capistrano-nginx', require: false
   gem 'capistrano-rails-db', require: false
+  gem 'rails_email_preview', '~> 2.2.1'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'spring'
