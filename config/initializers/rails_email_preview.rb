@@ -34,5 +34,7 @@ Rails.application.config.to_prepare do
   # RailsEmailPreview.locale = :de
 
   # Auto-load preview classes from:
-  RailsEmailPreview.preview_classes = RailsEmailPreview.find_preview_classes('app/mailer_previews')
+  if Rails.env != 'production'
+    RailsEmailPreview.preview_classes = RailsEmailPreview.find_preview_classes('app/mailer_previews')
+  end
 end
