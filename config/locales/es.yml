@@ -1291,8 +1291,9 @@ es:
     shipment_details: "Desde %{stock_location} por %{shipping_method}"
     shipment_mailer:
       shipped_email:
-        dear_customer: Estimado Cliente,\n
+        dear_customer: Estimado Cliente,
         instructions: Su pedido ha sido enviado
+        shipping_method: Metodo de envío
         shipment_summary: Resumen del envío
         subject: Notificación de Envío
         thanks: "¡Gracias por su compra!"
