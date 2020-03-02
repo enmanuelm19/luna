@@ -576,6 +576,7 @@ es:
     category: Categoría
     checkout_page:
       back_to_cart: Devolverse al carrito
+      delivery_method: Metodo de envío
       header: Pago
     charged: Cargado
     check_for_spree_alerts: Comprobar alertas
@@ -1301,7 +1302,7 @@ es:
         track_link: 'Enlace del tracking: %{url}'
     shipment_state: Estado del envío
     shipment_states:
-      backorder: Pedido pendiente de existencias
+      backorder: Sin existencias
       canceled: Cancelado
       partial: Parcial
       pending: Pendiente
