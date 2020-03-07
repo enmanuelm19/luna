@@ -1041,6 +1041,21 @@ es:
     payment_type: Tipo de pago
     payment_could_not_be_created: El pago no se ha podido crear.
     payment_information: Información del Pago
+    payment_mailer:
+      accepted_payment:
+        dear_customer: Estimado cliente,
+        instructions: El pago de tu pedido ha sido procesado exitosamente. Por favor conserva esta información de pago para tus registros.
+        order_summary: Resumen de pedido [PAGADO]
+        subtotal: 'Subtotal:'
+        total: 'Total Pedido:'
+        subject: Pago aprobado
+      voided_payment:
+        dear_customer: Estimado cliente,
+        instructions: El pago de tu pedido no ha podido ser procesado. Por favor conserva esta información de pago para tus registros.
+        order_summary: Resumen de pedido [PAGO CANCELADO]
+        subtotal: 'Subtotal:'
+        total: 'Total Pedido:'
+        subject: Pago anulado
     payment_method: Medio de Pago
     payment_methods: Medios de Pago
     payment_method_not_supported: Medio de Pago no soportado, por favo seleccione otro.
