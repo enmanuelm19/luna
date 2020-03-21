@@ -28,7 +28,7 @@
     <% if is_product_available_in_currency %>
       <div id="product-price" class="mb-2 text-center text-md-left add-to-cart-form-price" data-hook="product_price">
         <span class="price selling" content="<%= @product.price_in(current_currency).amount.to_d %>">
-          $ <%= "#{default_variant.price.to_i}" %>
+          CLP <%= "#{default_variant.price.to_i}" %>
           <!--<%= display_price(default_variant) %>-->
         </span>
         <span content="<%= current_currency %>"></span>
