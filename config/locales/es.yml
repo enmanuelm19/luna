@@ -347,6 +347,8 @@ es:
               cannot_destroy_default_store: Cannot destroy the default Store.
         spree/variant:
           attributes:
+            option_values:
+              blank: La opción no puede estar en blanco
             sku:
               taken: Ya este código fue tomado
 
@@ -1283,6 +1285,8 @@ es:
     say_no: 'No'
     say_yes: Si
     scope: Alcance
+    search_events: Total de busquedas
+    search_events_description: Total de los terminos de busquedas más comunes
     search: Buscar
     search_results: "Resultados para las búsqueda de '%{keywords}'"
     searching: Buscando

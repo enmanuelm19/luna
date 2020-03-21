@@ -1,0 +1,23 @@
+- if report == 'sales_total'
+  = search_form_for @search, url: spree.sales_total_admin_reports_path do |s|
+    .form-group.date-range-filter
+      = label_tag nil, Spree.t(:date_range)
+      .date-range-filter.row
+        .col-md-6
+          = s.text_field :completed_at_gt, class: 'datepicker datepicker-from form-control', value: datepicker_field_value(params[:q][:completed_at_gt])
+        .col-md-6
+          = s.text_field :completed_at_lt, class: 'datepicker datepicker-to form-control', value: datepicker_field_value(params[:q][:completed_at_lt])
+    .form-actions
+      = button Spree.t(:search), 'search'
+- if report == 'search_events'
+  = search_form_for @search, url: '/admin/reports/search_events' do |s|
+    .form-group.date-range-filter
+      = label_tag nil, Spree.t(:date_range)
+      .date-range-filter.row
+        .col-md-6
+          = s.text_field :created_at_gt, class: 'datepicker datepicker-from form-control', value: datepicker_field_value(params[:q][:created_at_gt]&.to_date)
+        .col-md-6
+          = s.text_field :created_at_lt, class: 'datepicker datepicker-to form-control', value: datepicker_field_value(params[:q][:created_at_lt]&.to_date)
+    .form-actions
+      = button Spree.t(:search), 'search'
+

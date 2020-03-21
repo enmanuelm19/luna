@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_16_180157) do
+ActiveRecord::Schema.define(version: 2020_03_15_163653) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -204,6 +204,13 @@ ActiveRecord::Schema.define(version: 2020_02_16_180157) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["number"], name: "index_spree_customer_returns_on_number", unique: true
     t.index ["stock_location_id"], name: "index_spree_customer_returns_on_stock_location_id"
+  end
+
+  create_table "spree_events", force: :cascade do |t|
+    t.string "type"
+    t.text "body"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "spree_gateways", id: :serial, force: :cascade do |t|

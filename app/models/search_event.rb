@@ -1,0 +1,2 @@
+class SearchEvent < SpreeEvent
+end

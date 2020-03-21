@@ -1,0 +1,19 @@
+- content_for :page_title
+  = link_to Spree.t(:reports), spree.admin_reports_url
+  |  / 
+  = Spree.t(:search_events)
+
+.card.bg-light.mb-3
+  .card-body
+    = render partial: 'spree/admin/shared/report_order_criteria', locals: { report: 'search_events' }
+
+table.table.table-bordered.admin-report data-hook='search_events'
+  thead
+    tr
+      th Busqueda
+      th Cantidad
+  tbody
+    - @search_events.each do |term, se|
+      tr
+        td = term
+        td = se.count
