@@ -528,8 +528,8 @@ es:
     avs_response: AVS Response
     back: Volver
     back_end: Backend
-    backordered: Pedido pendiente
-    backordered_info: Pedido pendiente
+    backordered: Sin Stock
+    backordered_info: Sin Stock
     back_to_resource_list: 'Volver al listado de %{resource}'
     back_to_payment: Volver al pago
     back_to_rma_reason_list: Volver al listado de razones RMA
