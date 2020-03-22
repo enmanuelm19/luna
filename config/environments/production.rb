@@ -17,7 +17,13 @@ Rails.application.configure do
   # Ensures that a master key has been made available in either ENV["RAILS_MASTER_KEY"]
   # or in config/master.key. This key is used to decrypt credentials (and other encrypted files).
   # config.require_master_key = true
-
+  Rails.application.config.middleware.use ExceptionNotification::Rack,
+    email: {
+      deliver_with: :deliver, # Rails >= 4.2.1 do not need this option since it defaults to :deliver_now
+      email_prefix: '[LUNA-BOUTIQUE] ',
+      sender_address: %{"notificador luna" <lunaboutique.chl@gmail.com>},
+      exception_recipients: %w{enmanuel.jose.medina.delgado@gmail.com lunaboutique.chl@gmail.com}
+    }
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
   config.public_file_server.enabled = ENV['RAILS_SERVE_STATIC_FILES'].present?

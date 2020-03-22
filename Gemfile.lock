@@ -150,6 +150,9 @@ GEM
     doorkeeper (5.3.0)
       railties (>= 5)
     erubi (1.9.0)
+    exception_notification (4.4.0)
+      actionmailer (>= 4.0, < 7)
+      activesupport (>= 4.0, < 7)
     execjs (2.7.0)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
@@ -466,6 +469,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   daemons
   delayed_job_active_record
+  exception_notification
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
