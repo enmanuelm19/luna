@@ -27,7 +27,7 @@ default:
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Casual
       subtitle: Categorias
-      url: /t/casual
+      url: /t/Casual
       items:
         - :title: Poleras
           :url: /t/casual/poleras
@@ -54,7 +54,7 @@ default:
           image: 'meganav/promo_banner_right-second-category.jpg'
     - title: Formal
       subtitle: Categorias
-      url: /t/formal
+      url: /t/Formal
       items:
         - :title: Faldas
           :url: /t/formal/faldas
