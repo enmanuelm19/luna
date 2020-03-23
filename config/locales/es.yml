@@ -453,6 +453,7 @@ es:
     address2: Dirección Complementaria
     address_book:
       successfully_updated: Dirección actualizada satisfactoriamente
+      other_address: Otra dirección
     adjustable: Ajustable
     adjustment: Ajuste
     adjustment_amount: Valor
