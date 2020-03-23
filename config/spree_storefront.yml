@@ -45,7 +45,7 @@ default:
           :url: /t/casual/pantalones
       promo_banners:
         - subtitle: Nueva colección
-          title: Verano
+          title: Otoño
           url: /t/nuevo
           image: 'meganav/promo_banner_left-second-category.jpg'
         - subtitle: Ofertas especiales
@@ -62,9 +62,15 @@ default:
           :url: /t/formal/pantalones
         - :title: Vestidos
           :url: /t/formal/vestidos
+        - :title: Poleras y blusas
+          :url: /t/formal/poleras y blusas
+        - :title: Conjuntos
+          :url: /t/formal/conjuntos
+        - :title: Abrigos
+          :url: /t/formal/abrigos
       promo_banners:
         - subtitle: Nueva colección
-          title: Verano
+          title: Otoño
           url: /t/nuevo
           image: 'meganav/promo_banner_left-third-category.jpg'
         - subtitle: Ofertas especiales
