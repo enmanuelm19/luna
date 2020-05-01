@@ -20,6 +20,7 @@ gem 'capistrano3-delayed-job'
 gem 'slim-rails'
 gem 'rails_email_preview', '~> 2.2.1'
 gem 'exception_notification'
+gem 'spree_analytics_trackers', '~> 1.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
